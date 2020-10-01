@@ -1,0 +1,37 @@
+INFO  19:08:20,599 HelpFormatter - -------------------------------------------------------------------------------- 
+INFO  19:08:20,602 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.7-0-gcfedb67, Compiled 2016/12/12 11:21:18 
+INFO  19:08:20,603 HelpFormatter - Copyright (c) 2010-2016 The Broad Institute 
+INFO  19:08:20,603 HelpFormatter - For support and documentation go to https://software.broadinstitute.org/gatk 
+INFO  19:08:20,603 HelpFormatter - [Mon Sep 30 19:08:20 EDT 2019] Executing on Mac OS X 10.13.6 x86_64 
+INFO  19:08:20,603 HelpFormatter - Java HotSpot(TM) 64-Bit Server VM 1.8.0_60-b27 
+INFO  19:08:20,606 HelpFormatter - Program Args: -log ./output/arozanski3.log -T RealignerTargetCreator -R ./data/chr17.fa -I /var/folders/4c/1y49lqw56mgg0rhwvgm6mqmm0000gn/T/tmp.XfuJrbCg/lane_sorted.bam -o /var/folders/4c/1y49lqw56mgg0rhwvgm6mqmm0000gn/T/tmp.XfuJrbCg/lane.intervals -known ./data/Mills_and_1000G_gold_standard.indels.hg38.vcf 
+INFO  19:08:20,835 HelpFormatter - Executing as queenalli@Allisons-MacBook-Pro-3.local on Mac OS X 10.13.6 x86_64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_60-b27. 
+INFO  19:08:20,836 HelpFormatter - Date/Time: 2019/09/30 19:08:20 
+INFO  19:08:20,836 HelpFormatter - -------------------------------------------------------------------------------- 
+INFO  19:08:20,837 HelpFormatter - -------------------------------------------------------------------------------- 
+INFO  19:08:20,848 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  19:08:20,935 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 1000 
+INFO  19:08:20,940 SAMDataSource$SAMReaders - Initializing SAMRecords in serial 
+INFO  19:08:20,955 SAMDataSource$SAMReaders - Done initializing BAM readers: total time 0.01 
+INFO  19:08:21,339 GenomeAnalysisEngine - Preparing for traversal over 1 BAM files 
+INFO  19:08:21,456 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  19:08:21,456 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  19:08:21,456 ProgressMeter -                 | processed |    time |    per 1M |           |   total | remaining 
+INFO  19:08:21,456 ProgressMeter -        Location |     sites | elapsed |     sites | completed | runtime |   runtime 
+INFO  19:08:51,474 ProgressMeter -  chr17:15910965   1.5908864E7    30.0 s       1.0 s       19.1%     2.6 m       2.1 m 
+INFO  19:09:21,488 ProgressMeter -  chr17:37021457   3.7011456E7    60.0 s       1.0 s       44.5%     2.2 m      74.0 s 
+INFO  19:09:51,495 ProgressMeter -  chr17:53444525   5.3428224E7    90.0 s       1.0 s       64.2%     2.3 m      50.0 s 
+INFO  19:10:21,511 ProgressMeter -  chr17:70171689   7.0156288E7   120.0 s       1.0 s       84.3%     2.4 m      22.0 s 
+INFO  19:10:44,839 ProgressMeter -            done   8.3257441E7     2.4 m       1.0 s      100.0%     2.4 m       0.0 s 
+INFO  19:10:44,839 ProgressMeter - Total runtime 143.38 secs, 2.39 min, 0.04 hours 
+INFO  19:10:44,842 MicroScheduler - 123803 reads were filtered out during the traversal out of approximately 10466741 total reads (1.18%) 
+INFO  19:10:44,842 MicroScheduler -   -> 0 reads (0.00% of total) failing BadCigarFilter 
+INFO  19:10:44,842 MicroScheduler -   -> 0 reads (0.00% of total) failing BadMateFilter 
+INFO  19:10:44,843 MicroScheduler -   -> 0 reads (0.00% of total) failing DuplicateReadFilter 
+INFO  19:10:44,843 MicroScheduler -   -> 0 reads (0.00% of total) failing FailsVendorQualityCheckFilter 
+INFO  19:10:44,843 MicroScheduler -   -> 0 reads (0.00% of total) failing MalformedReadFilter 
+INFO  19:10:44,843 MicroScheduler -   -> 0 reads (0.00% of total) failing MappingQualityUnavailableFilter 
+INFO  19:10:44,844 MicroScheduler -   -> 123803 reads (1.18% of total) failing MappingQualityZeroFilter 
+INFO  19:10:44,844 MicroScheduler -   -> 0 reads (0.00% of total) failing NotPrimaryAlignmentFilter 
+INFO  19:10:44,844 MicroScheduler -   -> 0 reads (0.00% of total) failing Platform454Filter 
+INFO  19:10:44,844 MicroScheduler -   -> 0 reads (0.00% of total) failing UnmappedReadFilter 
